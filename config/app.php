@@ -175,6 +175,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Laravel PHPBB Bridge provider...
+         */
+        Tohtamysh\LaravelPhpbbBridge\LaravelPhpbbBridgeServiceProvider::class,
     ],
 
     /*
