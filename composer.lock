@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "239dd25601adb8a8450918202bfd6d8b",
+    "content-hash": "e6faaf9c04566c92f296573a8f05599c",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3862,6 +3862,53 @@
             "time": "2020-07-13T06:12:54+00:00"
         },
         {
+            "name": "tohtamysh/laravel-phpbb-bridge",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tohtamysh/laravel-phpbb-bridge.git",
+                "reference": "c7eb36d528d9b124cbd0884039aa45688c7686eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tohtamysh/laravel-phpbb-bridge/zipball/c7eb36d528d9b124cbd0884039aa45688c7686eb",
+                "reference": "c7eb36d528d9b124cbd0884039aa45688c7686eb",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tohtamysh\\LaravelPhpbbBridge\\": "src/LaravelPhpbbBridge"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "tohtamysh",
+                    "email": "tohtamysh@gmail.com"
+                }
+            ],
+            "description": "Authentication module for Laravel 5.4 and phpBB 3.2",
+            "keywords": [
+                "laravel",
+                "laravel5",
+                "phpbb",
+                "phpbb3"
+            ],
+            "support": {
+                "source": "https://github.com/tohtamysh/laravel-phpbb-bridge/tree/v1.0.0"
+            },
+            "abandoned": true,
+            "time": "2017-06-08T06:35:59+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v3.6.9",
             "source": {
@@ -6633,5 +6680,5 @@
         "php": "^7.1.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

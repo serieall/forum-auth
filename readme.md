@@ -3,6 +3,8 @@
 This project handle the connection between SérieAll and the PHPBB forum.
 It cannot be run separately from SérieAll as the database will be the same.
 
+To read data session, the APP_KEY should be the same as serieall project.
+
 ## Prerequisites
 
 - Linux system

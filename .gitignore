@@ -13,3 +13,4 @@ yarn-error.log
 
 # CUSTOM
 .php-cs-fixer.cache
+.idea
